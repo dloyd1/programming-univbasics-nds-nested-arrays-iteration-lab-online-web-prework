@@ -29,10 +29,10 @@ def total_even_pairs(src)
  
     src.each { |n| 
       if n[0].even? == true && n[1].even? == true
-        new_array << n[0] + n[1]
+        new_array << (n[0] + n[1])
       end
     }
-    
+
   new_array.sum
 end
       
