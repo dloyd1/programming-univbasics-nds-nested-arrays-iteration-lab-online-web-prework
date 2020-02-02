@@ -40,6 +40,7 @@ def total_even_pairs(src)
         new_array << (n[0] + n[1])
       end
     }
+    
   new_array.sum
 end
       
